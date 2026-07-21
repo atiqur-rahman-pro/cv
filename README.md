@@ -27,7 +27,13 @@ Accomplished **Atiqur Rahman SDET**, **QA Tester and Engineer**, and **PCEP Cert
 
 ---
 
+## 📚 **DEVELOPER GUIDES & TECHNICAL ARTICLES**
+- 📖 **[How to Use Claude API: A Practical Python Developer Guide](https://github.com/atiqur-rahman-pro/cv/blob/main/how-to-use-claude-api.md)** — *Comprehensive guide covering Anthropic Claude 3.5 Sonnet SDK setup, streaming tokens, structured JSON output, and Jira REST API integration.*
+
+---
+
 ## 🛠️ **CORE TECHNICAL COMPETENCIES**
+
 
 - **Programming Languages:** Python 3.10+ (PCEP Certified), TypeScript, JavaScript (ES6+), Java, SQL.
 - **QA Automation & SDET:** Selenium WebDriver, Pytest Framework, Playwright, REST Assured, Page Object Model (POM), Security Testing (SQLi/XSS), Allure Reports.
