@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atiqur Rahman | Senior SDET & AI Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-dark: #07090e;
+            --panel-bg: rgba(15, 23, 42, 0.7);
+            --panel-border: rgba(255, 255, 255, 0.1);
+            --accent-cyan: #38bdf8;
+            --accent-purple: #a855f7;
+            --accent-green: #34d399;
+            --accent-amber: #fbbf24;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --radius-lg: 20px;
+            --radius-md: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; }
+
+        body {
+            background-color: var(--bg-dark);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.15) 0px, transparent 50%);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        /* Navbar */
+        header {
+            position: sticky; top: 0; z-index: 100;
+            background: rgba(7, 9, 14, 0.8); backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--panel-border);
+            padding: 18px 0;
+        }
+        .nav-wrap { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 20px; font-weight: 800; background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .nav-links { display: flex; gap: 24px; list-style: none; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; font-weight: 500; transition: color 0.2s; font-size: 14px; }
+        .nav-links a:hover { color: var(--accent-cyan); }
+        .btn-hire { background: linear-gradient(135deg, var(--accent-purple), #6366f1); color: #fff; padding: 8px 20px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 13px; }
+
+        /* Hero Section */
+        .hero { padding: 90px 0 60px; text-align: center; }
+        .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); color: var(--accent-cyan); padding: 6px 16px; border-radius: 30px; font-size: 13px; font-weight: 600; margin-bottom: 24px; }
+        .hero h1 { font-size: 52px; font-weight: 800; line-height: 1.15; margin-bottom: 20px; }
+        .hero h1 span { background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 18px; color: var(--text-muted); max-width: 780px; margin: 0 auto 36px; }
+
+        .cert-ribbon { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 40px; }
+        .cert-chip { background: var(--panel-bg); border: 1px solid var(--panel-border); padding: 6px 14px; border-radius: 8px; font-size: 12px; color: #cbd5e1; display: flex; align-items: center; gap: 6px; }
+
+        .hero-cta { display: flex; justify-content: center; gap: 16px; }
+        .btn-primary { background: linear-gradient(135deg, var(--accent-cyan), #0284c7); color: #fff; padding: 14px 28px; border-radius: var(--radius-md); text-decoration: none; font-weight: 700; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+        .btn-secondary { background: rgba(255, 255, 255, 0.05); border: 1px solid var(--panel-border); color: var(--text-main); padding: 14px 28px; border-radius: var(--radius-md); text-decoration: none; font-weight: 600; font-size: 15px; display: flex; align-items: center; gap: 8px; }
+
+        /* Experience Card */
+        .exp-card { background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: var(--radius-lg); padding: 32px; margin-bottom: 60px; backdrop-filter: blur(12px); }
+        .exp-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; }
+        .exp-title h3 { font-size: 22px; font-weight: 800; color: var(--text-main); }
+        .exp-title .company { font-size: 16px; color: var(--accent-cyan); font-weight: 600; }
+        .exp-badge { background: rgba(52, 211, 153, 0.15); border: 1px solid rgba(52, 211, 153, 0.3); color: var(--accent-green); padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+        .exp-card p { color: var(--text-muted); font-size: 15px; line-height: 1.7; }
+
+        /* Section Titles */
+        .section-title { text-align: center; margin: 80px 0 40px; }
+        .section-title h2 { font-size: 32px; font-weight: 800; }
+        .section-title p { color: var(--text-muted); font-size: 15px; margin-top: 8px; }
+
+        /* Projects Grid */
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; }
+        .project-card { background: var(--panel-bg); backdrop-filter: blur(12px); border: 1px solid var(--panel-border); border-radius: var(--radius-lg); padding: 28px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.3s, border-color 0.3s; }
+        .project-card:hover { transform: translateY(-4px); border-color: var(--accent-purple); }
+        .project-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 1px; margin-bottom: 12px; }
+        .project-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+        .project-card p { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; line-height: 1.6; }
+        .tech-stack { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; }
+        .t-badge { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.08); padding: 4px 10px; border-radius: 6px; font-size: 11px; color: #cbd5e1; }
+        .project-links { display: flex; gap: 12px; margin-top: auto; }
+        .p-btn { font-size: 13px; font-weight: 600; text-decoration: none; color: var(--text-main); background: rgba(255, 255, 255, 0.06); padding: 8px 16px; border-radius: 8px; border: 1px solid var(--panel-border); display: flex; align-items: center; gap: 6px; }
+        .p-btn:hover { background: rgba(255, 255, 255, 0.12); }
+
+        /* Certifications Section */
+        .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+        .cert-card { background: rgba(255, 255, 255, 0.02); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 18px; }
+        .cert-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; color: var(--text-main); }
+        .cert-card .org { font-size: 12px; color: var(--accent-cyan); font-weight: 600; margin-bottom: 6px; }
+        .cert-card .id { font-size: 11px; color: var(--text-muted); }
+
+        /* Footer */
+        footer { border-top: 1px solid var(--panel-border); margin-top: 100px; padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 14px; }
+        .social-links { display: flex; justify-content: center; gap: 20px; margin-bottom: 16px; font-size: 20px; }
+        .social-links a { color: var(--text-muted); transition: color 0.2s; }
+        .social-links a:hover { color: var(--accent-cyan); }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-wrap">
+            <div class="logo">ATIQUR RAHMAN</div>
+            <ul class="nav-links">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">15 Certifications</a></li>
+            </ul>
+            <a href="mailto:rahman.arpro@gmail.com" class="btn-hire"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container">
+        <div class="hero-badge">
+            <i class="fa-solid fa-briefcase"></i> 11+ Years Experience | 15 Professional Certifications
+        </div>
+        <h1>Senior SDET & <span>AI Automation Lead</span></h1>
+        <p>Building reliable software through smart automation. Experienced in architecting enterprise test frameworks, multi-modal AI agents, and CI/CD pipelines.</p>
+
+        <div class="cert-ribbon">
+            <div class="cert-chip"><i class="fa-brands fa-python" style="color:#38bdf8"></i> 3x PCEP Python Certified</div>
+            <div class="cert-chip"><i class="fa-brands fa-google" style="color:#fbbf24"></i> 3x Google AI Certified</div>
+            <div class="cert-chip"><i class="fa-solid fa-brain" style="color:#a855f7"></i> 3x Anthropic Claude Certified</div>
+            <div class="cert-chip"><i class="fa-solid fa-vial" style="color:#34d399"></i> Selenium & Rest Assured QA</div>
+            <div class="cert-chip"><i class="fa-brands fa-jira" style="color:#60a5fa"></i> Jira Agile Certified</div>
+        </div>
+
+        <div class="hero-cta">
+            <a href="https://github.com/atiqur-rahman-pro" target="_blank" class="btn-primary"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+            <a href="https://www.linkedin.com/in/atiqur-rahman-pro" target="_blank" class="btn-secondary"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+        </div>
+    </section>
+
+    <!-- Experience Highlight -->
+    <section class="container" id="experience">
+        <div class="exp-card">
+            <div class="exp-header">
+                <div class="exp-title">
+                    <h3>Automation Engineer / Senior SDET</h3>
+                    <div class="company"><i class="fa-solid fa-building"></i> Intelle Hub Inc • Full-time (Dhaka, Bangladesh)</div>
+                </div>
+                <div class="exp-badge"><i class="fa-solid fa-clock"></i> Mar 2015 – Present (11 yrs 5 mos)</div>
+            </div>
+            <p>🧪 <b>Building Reliable Software Through Smart Automation:</b> I help companies deliver bug-free software by building intelligent test automation frameworks that catch issues before users do. Specialized in Python, Selenium WebDriver, Pytest, Playwright, REST Assured, and CI/CD pipeline automation.</p>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="container" id="projects">
+        <div class="section-title">
+            <h2>Featured Open-Source Projects</h2>
+            <p>Production-ready automated platforms, AI assistants, and testing frameworks</p>
+        </div>
+
+        <div class="projects-grid">
+            
+            <!-- OmniAgent AI -->
+            <div class="project-card">
+                <div>
+                    <div class="project-tag">AI & Workflow Automation</div>
+                    <h3>OmniAgent Platform</h3>
+                    <p>Enterprise AI workflow platform connecting Claude AI & Gemini with Jira REST API to auto-triage customer bug reports into Jira issues with live glassmorphism dashboard.</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">Python</span>
+                        <span class="t-badge">FastAPI</span>
+                        <span class="t-badge">Claude API</span>
+                        <span class="t-badge">Jira REST API</span>
+                        <span class="t-badge">Pytest</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/atiqur-rahman-pro/omniagent-ai" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code Repo</a>
+                </div>
+            </div>
+
+            <!-- AI Voice Examiner -->
+            <div class="project-card">
+                <div>
+                    <div class="project-tag">AI & Voice Tool</div>
+                    <h3>AI Voice Examiner</h3>
+                    <p>Browser-native voice interview examiner covering 110+ SDET & QA topics. Evaluates spoken answers using Web Speech APIs and keyword auto-scoring.</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">JavaScript</span>
+                        <span class="t-badge">Web Speech API</span>
+                        <span class="t-badge">NLP Scoring</span>
+                        <span class="t-badge">Serverless</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://lnkd.in/gpXdg_D6" target="_blank" class="p-btn"><i class="fa-solid fa-rocket"></i> Live Demo</a>
+                    <a href="https://github.com/atiqur-rahman-pro/qa-interview-prep" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- 12-Point Web Audit -->
+            <div class="project-card">
+                <div>
+                    <div class="project-tag">QA Automation & CI/CD</div>
+                    <h3>12-Point Web Audit Framework</h3>
+                    <p>Automated diagnostic framework scanning Security, SEO, Performance, and Accessibility in 60s. Integrated with Allure Reports & GitHub Actions CI/CD.</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">Python</span>
+                        <span class="t-badge">Selenium</span>
+                        <span class="t-badge">Pytest</span>
+                        <span class="t-badge">Allure</span>
+                        <span class="t-badge">CI/CD</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://lnkd.in/d4aP9cJW" target="_blank" class="p-btn"><i class="fa-solid fa-chart-bar"></i> Allure Report</a>
+                    <a href="https://github.com/atiqur-rahman-pro/web-audit-automation-framework" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- GA4 BI Dashboard -->
+            <div class="project-card">
+                <div>
+                    <div class="project-tag">Data Engineering & Analytics</div>
+                    <h3>GA4 BI Analytics Dashboard</h3>
+                    <p>Python data pipeline ingesting Google Analytics 4 API metrics into automated business intelligence dashboards for real-time user insights.</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">Python</span>
+                        <span class="t-badge">GA4 API</span>
+                        <span class="t-badge">Pandas</span>
+                        <span class="t-badge">BI Dashboard</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/atiqur-rahman-pro/ga4-bi-dashboard" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code Repo</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Matrix -->
+    <section class="container" id="certifications">
+        <div class="section-title">
+            <h2>15 Professional Credentials</h2>
+            <p>Officially certified across Python Programming, AI Development, Test Automation, and Agile Project Management</p>
+        </div>
+
+        <div class="cert-grid">
+            <div class="cert-card">
+                <h4>PCEP: Python Data Processing</h4>
+                <div class="org">Logical Operations / Python Institute</div>
+                <div class="id">ID: OUSRQ2N4KRYX</div>
+            </div>
+            <div class="cert-card">
+                <h4>PCEP: Python Conditionals & Loops</h4>
+                <div class="org">Logical Operations / Python Institute</div>
+                <div class="id">ID: CAVECYWB33K4</div>
+            </div>
+            <div class="cert-card">
+                <h4>PCEP: Python Setup</h4>
+                <div class="org">Logical Operations / Python Institute</div>
+                <div class="id">ID: TGAGSODQDW15</div>
+            </div>
+            <div class="cert-card">
+                <h4>AI for App Building</h4>
+                <div class="org">Google</div>
+                <div class="id">ID: 1BS1KFZVSC0U</div>
+            </div>
+            <div class="cert-card">
+                <h4>AI Fundamentals</h4>
+                <div class="org">Google</div>
+                <div class="id">ID: 86YBVLUOCIED</div>
+            </div>
+            <div class="cert-card">
+                <h4>Claude Code 101 (Advanced)</h4>
+                <div class="org">Anthropic</div>
+                <div class="id">ID: 952n42eqxr9x</div>
+            </div>
+            <div class="cert-card">
+                <h4>Selenium Automation & Java</h4>
+                <div class="org">Coursera</div>
+                <div class="id">ID: RSEYG7E8O5X4</div>
+            </div>
+            <div class="cert-card">
+                <h4>API Testing (Rest Assured)</h4>
+                <div class="org">Coursera</div>
+                <div class="id">ID: 822DTNGOJ0XO</div>
+            </div>
+            <div class="cert-card">
+                <h4>Google Analytics Certification</h4>
+                <div class="org">Google Skillshop</div>
+                <div class="id">ID: 188040194</div>
+            </div>
+            <div class="cert-card">
+                <h4>Get Started with Jira (Agile)</h4>
+                <div class="org">Coursera</div>
+                <div class="id">ID: 3TCKH7AHUWG4</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/atiqur-rahman-pro" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/atiqur-rahman-pro" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:rahman.arpro@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2026 Atiqur Rahman. All rights reserved. Automation Engineer & Senior SDET.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
