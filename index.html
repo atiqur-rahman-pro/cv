@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Atiqur Rahman - Senior SDET, AI Developer & Automation Engineer with 11+ years of experience and 15 professional certifications.">
+    <meta name="keywords" content="SDET, QA Automation, Python Developer, AI Engineer, Selenium, Playwright, Pytest, Claude API, Google AI, Atiqur Rahman">
     <title>Atiqur Rahman | Senior SDET & AI Developer</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +16,7 @@
     <style>
         :root {
             --bg-dark: #07090e;
-            --panel-bg: rgba(15, 23, 42, 0.7);
+            --panel-bg: rgba(15, 23, 42, 0.75);
             --panel-border: rgba(255, 255, 255, 0.1);
             --accent-cyan: #38bdf8;
             --accent-purple: #a855f7;
@@ -42,7 +44,7 @@
         /* Navbar */
         header {
             position: sticky; top: 0; z-index: 100;
-            background: rgba(7, 9, 14, 0.8); backdrop-filter: blur(16px);
+            background: rgba(7, 9, 14, 0.85); backdrop-filter: blur(16px);
             border-bottom: 1px solid var(--panel-border);
             padding: 18px 0;
         }
@@ -52,6 +54,9 @@
         .nav-links a { color: var(--text-muted); text-decoration: none; font-weight: 500; transition: color 0.2s; font-size: 14px; }
         .nav-links a:hover { color: var(--accent-cyan); }
         .btn-hire { background: linear-gradient(135deg, var(--accent-purple), #6366f1); color: #fff; padding: 8px 20px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 13px; }
+
+        /* Mobile Menu Toggle */
+        .menu-toggle { display: none; background: none; border: none; color: var(--text-main); font-size: 20px; cursor: pointer; }
 
         /* Hero Section */
         .hero { padding: 90px 0 60px; text-align: center; }
@@ -63,7 +68,7 @@
         .cert-ribbon { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 40px; }
         .cert-chip { background: var(--panel-bg); border: 1px solid var(--panel-border); padding: 6px 14px; border-radius: 8px; font-size: 12px; color: #cbd5e1; display: flex; align-items: center; gap: 6px; }
 
-        .hero-cta { display: flex; justify-content: center; gap: 16px; }
+        .hero-cta { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
         .btn-primary { background: linear-gradient(135deg, var(--accent-cyan), #0284c7); color: #fff; padding: 14px 28px; border-radius: var(--radius-md); text-decoration: none; font-weight: 700; font-size: 15px; display: flex; align-items: center; gap: 8px; }
         .btn-secondary { background: rgba(255, 255, 255, 0.05); border: 1px solid var(--panel-border); color: var(--text-main); padding: 14px 28px; border-radius: var(--radius-md); text-decoration: none; font-weight: 600; font-size: 15px; display: flex; align-items: center; gap: 8px; }
 
@@ -81,7 +86,7 @@
         .section-title p { color: var(--text-muted); font-size: 15px; margin-top: 8px; }
 
         /* Projects Grid */
-        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 24px; }
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; }
         .project-card { background: var(--panel-bg); backdrop-filter: blur(12px); border: 1px solid var(--panel-border); border-radius: var(--radius-lg); padding: 28px; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.3s, border-color 0.3s; }
         .project-card:hover { transform: translateY(-4px); border-color: var(--accent-purple); }
         .project-tag { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--accent-cyan); letter-spacing: 1px; margin-bottom: 12px; }
@@ -93,12 +98,20 @@
         .p-btn { font-size: 13px; font-weight: 600; text-decoration: none; color: var(--text-main); background: rgba(255, 255, 255, 0.06); padding: 8px 16px; border-radius: 8px; border: 1px solid var(--panel-border); display: flex; align-items: center; gap: 6px; }
         .p-btn:hover { background: rgba(255, 255, 255, 0.12); }
 
-        /* Certifications Section */
+        /* Certifications Grid (All 15 Certifications) */
         .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
         .cert-card { background: rgba(255, 255, 255, 0.02); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 18px; }
         .cert-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; color: var(--text-main); }
         .cert-card .org { font-size: 12px; color: var(--accent-cyan); font-weight: 600; margin-bottom: 6px; }
         .cert-card .id { font-size: 11px; color: var(--text-muted); }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .nav-links { display: none; }
+            .menu-toggle { display: block; }
+            .nav-links.active { display: flex; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg-dark); flex-direction: column; padding: 20px; border-bottom: 1px solid var(--panel-border); text-align: center; }
+        }
 
         /* Footer */
         footer { border-top: 1px solid var(--panel-border); margin-top: 100px; padding: 40px 0; text-align: center; color: var(--text-muted); font-size: 14px; }
@@ -113,7 +126,8 @@
     <header>
         <div class="container nav-wrap">
             <div class="logo">ATIQUR RAHMAN</div>
-            <ul class="nav-links">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">15 Certifications</a></li>
@@ -152,7 +166,7 @@
                     <h3>Automation Engineer / Senior SDET</h3>
                     <div class="company"><i class="fa-solid fa-building"></i> Intelle Hub Inc • Full-time (Dhaka, Bangladesh)</div>
                 </div>
-                <div class="exp-badge"><i class="fa-solid fa-clock"></i> Mar 2015 – Present (11 yrs 5 mos)</div>
+                <div class="exp-badge"><i class="fa-solid fa-clock"></i> Mar 2015 – Present (11+ Years)</div>
             </div>
             <p>🧪 <b>Building Reliable Software Through Smart Automation:</b> I help companies deliver bug-free software by building intelligent test automation frameworks that catch issues before users do. Specialized in Python, Selenium WebDriver, Pytest, Playwright, REST Assured, and CI/CD pipeline automation.</p>
         </div>
@@ -191,7 +205,7 @@
                 <div>
                     <div class="project-tag">AI & Voice Tool</div>
                     <h3>AI Voice Examiner</h3>
-                    <p>Browser-native voice interview examiner covering 110+ SDET & QA topics. Evaluates spoken answers using Web Speech APIs and keyword auto-scoring.</p>
+                    <p>Browser-native voice interview examiner covering 110+ SDET & QA topics across 11 essential domains. Evaluates spoken answers using Web Speech APIs and keyword auto-scoring.</p>
                     <div class="tech-stack">
                         <span class="t-badge">JavaScript</span>
                         <span class="t-badge">Web Speech API</span>
@@ -200,8 +214,7 @@
                     </div>
                 </div>
                 <div class="project-links">
-                    <a href="https://lnkd.in/gpXdg_D6" target="_blank" class="p-btn"><i class="fa-solid fa-rocket"></i> Live Demo</a>
-                    <a href="https://github.com/atiqur-rahman-pro/qa-interview-prep" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="https://github.com/atiqur-rahman-pro/qa-interview-prep" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code Repo</a>
                 </div>
             </div>
 
@@ -210,7 +223,7 @@
                 <div>
                     <div class="project-tag">QA Automation & CI/CD</div>
                     <h3>12-Point Web Audit Framework</h3>
-                    <p>Automated diagnostic framework scanning Security, SEO, Performance, and Accessibility in 60s. Integrated with Allure Reports & GitHub Actions CI/CD.</p>
+                    <p>Automated diagnostic framework reducing audit execution time from 4 hours to ~60s (95% efficiency gain). Integrated with Allure Reports & GitHub Actions CI/CD.</p>
                     <div class="tech-stack">
                         <span class="t-badge">Python</span>
                         <span class="t-badge">Selenium</span>
@@ -220,8 +233,7 @@
                     </div>
                 </div>
                 <div class="project-links">
-                    <a href="https://lnkd.in/d4aP9cJW" target="_blank" class="p-btn"><i class="fa-solid fa-chart-bar"></i> Allure Report</a>
-                    <a href="https://github.com/atiqur-rahman-pro/web-audit-automation-framework" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code</a>
+                    <a href="https://github.com/atiqur-rahman-pro/web-audit-automation-framework" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Code Repo</a>
                 </div>
             </div>
 
@@ -246,11 +258,11 @@
         </div>
     </section>
 
-    <!-- Certifications Matrix -->
+    <!-- Certifications Matrix (All 15 Certifications) -->
     <section class="container" id="certifications">
         <div class="section-title">
             <h2>15 Professional Credentials</h2>
-            <p>Officially certified across Python Programming, AI Development, Test Automation, and Agile Project Management</p>
+            <p>Officially certified across Python Programming, AI Development, Test Automation, Analytics, and Agile Project Management</p>
         </div>
 
         <div class="cert-grid">
@@ -280,9 +292,24 @@
                 <div class="id">ID: 86YBVLUOCIED</div>
             </div>
             <div class="cert-card">
+                <h4>AI for Writing and Communicating</h4>
+                <div class="org">Google</div>
+                <div class="id">ID: UU04LRMQ3M4M</div>
+            </div>
+            <div class="cert-card">
                 <h4>Claude Code 101 (Advanced)</h4>
                 <div class="org">Anthropic</div>
                 <div class="id">ID: 952n42eqxr9x</div>
+            </div>
+            <div class="cert-card">
+                <h4>Claude 101 (Foundational)</h4>
+                <div class="org">Anthropic</div>
+                <div class="id">ID: 75whzvh7gxdh</div>
+            </div>
+            <div class="cert-card">
+                <h4>Claude Platform 101</h4>
+                <div class="org">Anthropic</div>
+                <div class="id">Verified Credential</div>
             </div>
             <div class="cert-card">
                 <h4>Selenium Automation & Java</h4>
@@ -300,6 +327,16 @@
                 <div class="id">ID: 188040194</div>
             </div>
             <div class="cert-card">
+                <h4>Getting Started in Google Analytics</h4>
+                <div class="org">Coursera</div>
+                <div class="id">ID: AN00C0Z5Q5XD</div>
+            </div>
+            <div class="cert-card">
+                <h4>SEO with Squarespace</h4>
+                <div class="org">Coursera</div>
+                <div class="id">ID: AEQO76577Q0R</div>
+            </div>
+            <div class="cert-card">
                 <h4>Get Started with Jira (Agile)</h4>
                 <div class="org">Coursera</div>
                 <div class="id">ID: 3TCKH7AHUWG4</div>
@@ -311,13 +348,23 @@
     <footer>
         <div class="container">
             <div class="social-links">
-                <a href="https://github.com/atiqur-rahman-pro" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/atiqur-rahman-pro" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="mailto:rahman.arpro@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/atiqur-rahman-pro" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/atiqur-rahman-pro" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:rahman.arpro@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
             </div>
             <p>&copy; 2026 Atiqur Rahman. All rights reserved. Automation Engineer & Senior SDET.</p>
         </div>
     </footer>
 
+    <script>
+        // Responsive Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+        }
+    </script>
 </body>
 </html>

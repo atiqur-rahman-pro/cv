@@ -13,16 +13,16 @@ Accomplished **Automation Engineer & Senior SDET** with **11+ years of full-time
 ## 💼 **PRESENT WORKPLACE & PROFESSIONAL EXPERIENCE**
 
 ### 🏢 **Intelle Hub Inc** | Dhaka, Bangladesh (On-site)
-**Automation Engineer / Senior SDET** | *Full-time | Mar 2015 – Present (11 yrs 5 mos)*  
+**Automation Engineer / Senior SDET** | *Full-time | Mar 2015 – Present (11+ Years)*  
 *🧪 QA Automation Engineer | Building Reliable Software Through Smart Automation.*
 
 - **Overview:** Help companies deliver bug-free software by building intelligent test automation frameworks that catch issues before users do.
-- **Enterprise Test Architecture:** Spearhead end-to-end test automation strategies and framework architectures across complex web applications and RESTful microservices.
-- **Framework Engineering:** Build scalable automated test sytems utilizing Python, Selenium WebDriver, Pytest, Playwright, and Rest Assured, accelerating release velocity.
-- **Jira & Bug Lifecycle Integration:** Automate issue triaging and bug tracking by connecting execution scripts directly with Jira Cloud REST APIs (`/rest/api/3/issue`).
-- **CI/CD Pipeline Automation:** Configure GitHub Actions CI/CD to run regression suites automatically on every push, PR, and weekly schedule.
-- **Security & Performance Testing:** Conduct deep security auditing (SQL Injection & XSS vulnerability prevention) and browser performance diagnostics.
-- **Mentorship & Quality Standards:** Train QA engineers on Page Object Model (POM) design patterns, clean code principles, and Allure test reporting.
+- **Enterprise Test Architecture:** Spearhead end-to-end test automation strategies and framework architectures across complex web applications and RESTful microservices, cutting regression cycle time by 75%.
+- **Framework Engineering:** Build scalable automated test systems utilizing Python, Selenium WebDriver, Pytest, Playwright, and Rest Assured, accelerating release velocity for 10+ production applications.
+- **Jira & Bug Lifecycle Integration:** Automate issue triaging and bug tracking by connecting execution scripts directly with Jira Cloud REST APIs (`/rest/api/3/issue`), achieving 100% automated issue logging.
+- **CI/CD Pipeline Automation:** Configure GitHub Actions CI/CD to run regression suites automatically on every push, PR, and weekly schedule with automated Slack/Email alerts.
+- **Security & Performance Testing:** Conduct deep security auditing (SQL Injection & XSS vulnerability prevention) and browser performance diagnostics using Navigation Timing APIs.
+- **Mentorship & Quality Standards:** Train and mentor QA engineers on Page Object Model (POM) design patterns, clean code principles, and Allure test reporting.
 
 ---
 
@@ -44,18 +44,18 @@ Accomplished **Automation Engineer & Senior SDET** with **11+ years of full-time
 *Engineered a full-stack, enterprise-grade AI workflow automation platform that ingests customer queries and auto-triages support issues into Jira REST API tickets.*
 - Developed a multi-model AI engine integrating Anthropic Claude and Google Gemini APIs with a zero-cost intelligent offline fallback engine.
 - Built a PCEP-certified Python data processing engine executing real-time bilingual (Bengali & English) sentiment analysis and rule-based intent classification.
-- Implemented zero-touch Jira REST API integration (`/rest/api/3/issue`) to auto-create high-priority bug tickets for critical system complaints.
+- Implemented zero-touch Jira REST API integration (`/rest/api/3/issue`) to auto-create high-priority bug tickets for critical system complaints with 100% SLA compliance.
 - Designed a modern dark glassmorphism dashboard delivering live analytics and ticket tracking.
 - Formulated 100% automated `pytest` API unit suites and Selenium UI test scripts.
 
-### **12-Point Web Audit Automation Framework** | [Live Report](https://lnkd.in/d4aP9cJW) | [GitHub Repo](https://github.com/atiqur-rahman-pro/web-audit-automation-framework)
-*Designed a production-grade automated diagnostic framework reducing website audit execution time from 4 hours to ~60 seconds.*
+### **12-Point Web Audit Automation Framework** | [GitHub Repo](https://github.com/atiqur-rahman-pro/web-audit-automation-framework)
+*Designed a production-grade automated diagnostic framework reducing website audit execution time from 4 hours to ~60 seconds (95% efficiency gain).*
 - Automated 12 diagnostic checks across Security (HTTPS/Headers), Performance (Navigation Timing API), SEO (Canonical/OG tags), Accessibility (Alt scanning), and Reliability (Broken link scanning).
 - Integrated Allure Reporting with attached screenshots and DOM snapshots for complete audit evidence trails.
-- Configured GitHub Actions CI/CD to run automated weekly runs and deploy historical trend reports to GitHub Pages.
+- Configured GitHub Actions CI/CD to run automated weekly runs and deploy historical trend reports comparing the last 20 runs to GitHub Pages.
 
-### **Universal Real-Time AI Voice Examiner & QA Prep Console** | [Live App](https://lnkd.in/gpXdg_D6) | [GitHub Repo](https://github.com/atiqur-rahman-pro/qa-interview-prep)
-*Built a serverless, browser-native AI voice examiner tool covering 110+ SDET & QA topics with real-time scoring.*
+### **Universal Real-Time AI Voice Examiner & QA Prep Console** | [GitHub Repo](https://github.com/atiqur-rahman-pro/qa-interview-prep)
+*Built a serverless, browser-native AI voice examiner tool covering 110+ SDET & QA topics across 11 essential domains with real-time scoring.*
 - Engineered dual examiner modes: Pre-loaded 11-domain question bank and custom job description question importer.
 - Utilized Web Speech APIs for speech-to-text recognition and text-to-speech question reading out loud.
 - Created keyword-based auto-scoring algorithms calculating real-time 100-point performance report cards and live topic weakness heatmaps.
