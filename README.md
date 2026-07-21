@@ -81,7 +81,8 @@ Accomplished **Automation Engineer & Senior SDET** with **11+ years of full-time
 - **AI for Writing and Communicating** | Google | Jul 2026 | *ID: UU04LRMQ3M4M*
 - **Claude Code 101 (Advanced)** | Anthropic | Jul 2026 | *ID: 952n42eqxr9x*
 - **Claude 101 (Foundational)** | Anthropic | Apr 2026 | *ID: 75whzvh7gxdh*
-- **Claude Platform 101** | Anthropic | 2026
+- **Claude Platform 101** | Anthropic | Jul 2026 | *ID: kts8z8ja8m9c*
+
 
 ### 📊 **Digital Marketing & Analytics (Google & Coursera)**
 - **Google Analytics Certification (2026)** | Google Skillshop | Jul 2026 – Jul 2027 | *ID: 188040194*
