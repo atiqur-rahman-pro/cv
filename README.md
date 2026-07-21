@@ -10,17 +10,19 @@ Accomplished **Automation Engineer & Senior SDET** with **11+ years of full-time
 
 ---
 
-## 💼 **PROFESSIONAL EXPERIENCE**
+## 💼 **PRESENT WORKPLACE & PROFESSIONAL EXPERIENCE**
 
-### **Intelle Hub Inc** | Dhaka, Bangladesh (On-site)
-**Automation Engineer / Senior SDET** | *Mar 2015 – Present (11 yrs 5 mos)*  
-*🧪 Building Reliable Software Through Smart Automation.*
-- Spearhead end-to-end test automation strategies and framework architectures across complex web applications and RESTful microservices.
-- Engineer scalable automated test suites utilizing Python, Selenium WebDriver, Pytest, Playwright, and Rest Assured, significantly accelerating release velocity.
-- Automate issue triaging and bug lifecycle tracking by connecting custom execution scripts directly with Jira Cloud REST APIs.
-- Build CI/CD pipeline automation via GitHub Actions to execute regression suites automatically on every push, pull request, and weekly schedule.
-- Conduct deep security testing (SQL Injection & XSS vulnerability prevention) and performance diagnostics using browser performance metrics.
-- Mentor development and QA teams on Page Object Model (POM) design patterns, clean code principles, and Allure test reporting.
+### 🏢 **Intelle Hub Inc** | Dhaka, Bangladesh (On-site)
+**Automation Engineer / Senior SDET** | *Full-time | Mar 2015 – Present (11 yrs 5 mos)*  
+*🧪 QA Automation Engineer | Building Reliable Software Through Smart Automation.*
+
+- **Overview:** Help companies deliver bug-free software by building intelligent test automation frameworks that catch issues before users do.
+- **Enterprise Test Architecture:** Spearhead end-to-end test automation strategies and framework architectures across complex web applications and RESTful microservices.
+- **Framework Engineering:** Build scalable automated test sytems utilizing Python, Selenium WebDriver, Pytest, Playwright, and Rest Assured, accelerating release velocity.
+- **Jira & Bug Lifecycle Integration:** Automate issue triaging and bug tracking by connecting execution scripts directly with Jira Cloud REST APIs (`/rest/api/3/issue`).
+- **CI/CD Pipeline Automation:** Configure GitHub Actions CI/CD to run regression suites automatically on every push, PR, and weekly schedule.
+- **Security & Performance Testing:** Conduct deep security auditing (SQL Injection & XSS vulnerability prevention) and browser performance diagnostics.
+- **Mentorship & Quality Standards:** Train QA engineers on Page Object Model (POM) design patterns, clean code principles, and Allure test reporting.
 
 ---
 
