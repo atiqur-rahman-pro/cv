@@ -1,12 +1,13 @@
 # **ATIQUR RAHMAN**
-**Senior SDET | QA Tester & Engineer | PCEP Certified Python Developer Bangladesh**
+**Senior SDET | QA Automation Engineer | Freelance SDET Expert**
 
-📍 Dhaka, Bangladesh | ✉️ rahman.arpro@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro) | 🐙 [GitHub CV](https://github.com/atiqur-rahman-pro)
+📍 Dhaka, Bangladesh | ✉️ rahman.arpro@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro) | 🐙 [GitHub CV](https://github.com/atiqur-rahman-pro/cv)
 
 ---
 
 ## 🌟 **PROFESSIONAL SUMMARY**
-Accomplished **Atiqur Rahman SDET**, **QA Tester and Engineer**, and **PCEP Certified Python Developer Bangladesh** with **11+ years of full-time experience** at **Intelle Hub Inc** and **15 Professional Certifications** across Python, **Claude AI Certified** models (Claude Code 101, Claude Platform 101), Google AI, Test Automation (Selenium & REST Assured), Analytics, and Agile Management (Jira). Experienced **QA Automation Engineer Claude AI** integration specialist who knows **how to use Claude API** to build production-ready agentic platforms. Proven track record of eliminating manual testing overhead by up to 95%. Available for high-impact Remote, Contract, and Freelance engineering roles worldwide.
+Accomplished **Senior SDET**, **Freelance QA Engineer**, and **SDET Expert in GitHub** with **11+ years of full-time experience** at **Intelle Hub Inc** and **15 Professional Certifications** across Python (PCEP Certified), **Claude AI Certified** models, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Agile Management (Jira). Experienced **QA Automation Engineer** & AI integration specialist who knows **how to use Claude API** to build production-grade agentic platforms and automated testing frameworks. Proven track record of eliminating manual regression testing overhead by up to 95%. Available for high-impact Global Remote, Contract, and Freelance SDET-QA Automation Jobs & Projects worldwide.
+
 
 
 ---
