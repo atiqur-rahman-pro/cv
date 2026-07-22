@@ -1,12 +1,13 @@
 # **ATIQUR RAHMAN**
-**Senior SDET | QA Automation Engineer | Freelance SDET Expert**
+**Senior SDET | Freelance QA Engineer | Remote SDET Automation Engineer | AI Workflow Automation Specialist**
 
 📍 Dhaka, Bangladesh | ✉️ rahman.arpro@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro) | 🐙 [GitHub CV](https://github.com/atiqur-rahman-pro/cv)
 
 ---
 
 ## 🌟 **PROFESSIONAL SUMMARY**
-Accomplished **Senior SDET**, **Freelance QA Engineer**, and **SDET Expert in GitHub** with **11+ years of full-time experience** at **Intelle Hub Inc** and **15 Professional Certifications** across Python (PCEP Certified), **Claude AI Certified** models, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Agile Management (Jira). Experienced **QA Automation Engineer** & AI integration specialist who knows **how to use Claude API** to build production-grade agentic platforms and automated testing frameworks. Proven track record of eliminating manual regression testing overhead by up to 95%. Available for high-impact Global Remote, Contract, and Freelance SDET-QA Automation Jobs & Projects worldwide.
+Accomplished **Senior SDET**, **Freelance QA Engineer**, **Remote SDET Automation Engineer**, and **AI Workflow Automation Specialist** with **11+ years of full-time experience** at **Intelle Hub Inc** and **15 Professional Certifications** across Python (PCEP Certified), **Claude AI Certified** models, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Agile Management (Jira). Experienced QA Automation Engineer who knows **how to use Claude API** to build production-grade agentic platforms and automated testing frameworks. Proven track record of eliminating manual regression testing overhead by up to 95%. Available for high-impact Global **SDET-QA Automation Job** roles, Contract, and Freelance projects worldwide.
+
 
 
 
