@@ -6,7 +6,7 @@
 ---
 
 ## 🌟 **PROFESSIONAL SUMMARY**
-Accomplished **Senior SDET**, **Freelance QA Engineer**, **Remote SDET Automation Engineer**, and **AI Workflow Automation Specialist** with **11+ years of full-time experience** at **Intelle Hub Inc** and **15 Professional Certifications** across Python (PCEP Certified), **Claude AI Certified** models, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Agile Management (Jira). Experienced QA Automation Engineer who knows **how to use Claude API** to build production-grade agentic platforms and automated testing frameworks. Proven track record of eliminating manual regression testing overhead by up to 95%. Available for high-impact Global **SDET-QA Automation Job** roles, Contract, and Freelance projects worldwide.
+Accomplished **Senior SDET**, **Freelance QA Engineer**, **Remote SDET Automation Engineer**, and **AI Workflow Automation Specialist** with **11+ years of full-time experience** at **Intelle Hub Inc** and **15 Professional Certifications** across Python (PCEP Certified), **Docker Containerization**, **Jenkins CI/CD Pipelines**, **Claude AI Certified** models, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Agile Management (Jira). Experienced QA Automation Engineer who knows **how to use Claude API** to build production-grade agentic platforms and automated testing frameworks. Proven track record of eliminating manual regression testing overhead by up to 95%. Available for high-impact Global **SDET-QA Automation Job** roles, Contract, and Freelance projects worldwide.
 
 
 
@@ -23,7 +23,7 @@ Accomplished **Senior SDET**, **Freelance QA Engineer**, **Remote SDET Automatio
 - **Enterprise Test Architecture:** Spearhead end-to-end test automation strategies and framework architectures across complex web applications and RESTful microservices, cutting regression cycle time by 75%.
 - **Framework Engineering:** Build scalable automated test systems utilizing Python, Selenium WebDriver, Pytest, Playwright, and Rest Assured, accelerating release velocity for 10+ production applications.
 - **Jira & Bug Lifecycle Integration:** Automate issue triaging and bug tracking by connecting execution scripts directly with Jira Cloud REST APIs (`/rest/api/3/issue`), achieving 100% automated issue logging.
-- **CI/CD Pipeline Automation:** Configure GitHub Actions CI/CD to run regression suites automatically on every push, PR, and weekly schedule with automated Slack/Email alerts.
+- **DevOps, Docker & Jenkins CI/CD:** Architect and maintain containerized test automation pipelines using Docker and Jenkins alongside GitHub Actions to execute regression suites automatically on every push, PR, and weekly schedule with automated alerts.
 - **Security & Performance Testing:** Conduct deep security auditing (SQL Injection & XSS vulnerability prevention) and browser performance diagnostics using Navigation Timing APIs.
 - **Mentorship & Quality Standards:** Train and mentor QA engineers on Page Object Model (POM) design patterns, clean code principles, and Allure test reporting.
 
@@ -42,7 +42,7 @@ Accomplished **Senior SDET**, **Freelance QA Engineer**, **Remote SDET Automatio
 - **AI & LLM Integration:** Claude API (Anthropic), Google Gemini API, Groq/Grok, Prompt Engineering, Agentic Workflows, Sentiment Analysis, Multi-modal AI App Development.
 - **Data Engineering & BI:** Google Analytics 4 (GA4 API), Data Scraping & Extraction, Data Processing (Pandas/PCEP), Business Intelligence Dashboards.
 - **Backend & APIs:** FastAPI, Flask, RESTful API Design, Async Data Processing, JSON/XML Handling, Webhooks.
-- **DevOps & CI/CD:** GitHub Actions, GitHub Pages, Chrome Headless, CI/CD Test Pipeline Automation, Git/GitHub.
+- **DevOps, Docker & CI/CD:** Docker (Containerization & Compose), Jenkins (CI/CD Pipelines & Automation), GitHub Actions, GitHub Pages, Chrome Headless, Containerized Test Execution, Git/GitHub.
 - **Agile & SEO:** Jira (Kanban/Agile Workflow Automation), Search Engine Optimization (SEO Audit Tools), Squarespace.
 
 ---
