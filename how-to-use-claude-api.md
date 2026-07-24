@@ -13,6 +13,12 @@ This guide provides a production-grade blueprint on **how to use Claude API** ef
 
 ---
 
+### 📺 Watch Video Tutorial on YouTube
+[![Watch Video Tutorial on YouTube](https://img.youtube.com/vi/7Nj9dbKWplY/maxresdefault.jpg)](https://www.youtube.com/watch?v=7Nj9dbKWplY)
+
+---
+
+
 ## 🛠️ Step 1: Installation & API Key Setup
 
 ### 1. Install the Official Anthropic Python SDK
