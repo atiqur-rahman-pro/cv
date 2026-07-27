@@ -5,8 +5,9 @@
 **Location:** Dhaka, Bangladesh | **Email:** [rahman.atiqur.pro@gmail.com](mailto:rahman.atiqur.pro@gmail.com)
 
 [![Microsoft Contributor](https://img.shields.io/badge/Microsoft_Playwright-Open_Source_Contributor-blue?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3156)
+[![Live CV Website](https://img.shields.io/badge/Live_CV-atiqur--rahman--pro.github.io%2Fcv-success?style=for-the-badge&logo=githubpages&logoColor=white)](https://atiqur-rahman-pro.github.io/cv/)
+[![Portfolio Website](https://img.shields.io/badge/Portfolio-atiqur--rahman--pro.github.io-2088FF?style=for-the-badge&logo=githubpages&logoColor=white)](https://atiqur-rahman-pro.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-atiqur--rahman--pro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atiqur-rahman-pro)
-[![GitHub](https://img.shields.io/badge/GitHub-atiqur--rahman--pro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atiqur-rahman-pro)
 [![YouTube](https://img.shields.io/badge/YouTube-Digital_Digest_Live-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Digital_Digest_Live)
 
 ---
@@ -14,7 +15,14 @@
 </div>
 
 ## 📌 Executive Summary
-Results-driven **Senior Software QA Engineer & SDET Architect** with extensive expertise in building scalable, production-grade test automation infrastructure, AI-augmented failure triaging engines, and multi-layered quality pipelines. Certified Python professional (PCEP) and official **Microsoft Open Source Contributor** (`microsoft/playwright-python`). Proven track record of accelerating release cycles, reducing flaky test maintenance, and implementing automated 360-degree site health audit architectures.
+Results-driven **Senior Software QA Engineer & SDET Architect** with extensive expertise in building scalable, production-grade test automation infrastructure, AI-augmented failure triaging engines, and multi-layered quality pipelines. Certified Python professional (PCEP) and official **Microsoft Open Source Contributor** (`microsoft/playwright-python#3156`). Creator of live technical web assets at [atiqur-rahman-pro.github.io/cv](https://atiqur-rahman-pro.github.io/cv/) and [atiqur-rahman-pro.github.io](https://atiqur-rahman-pro.github.io/).
+
+---
+
+## 🌐 Live Web Assets & Portfolios
+* 📄 **Live Web CV**: [https://atiqur-rahman-pro.github.io/cv/](https://atiqur-rahman-pro.github.io/cv/)
+* 💻 **Live Portfolio**: [https://atiqur-rahman-pro.github.io/](https://atiqur-rahman-pro.github.io/)
+* 🏅 **Microsoft Playwright PR**: [https://github.com/microsoft/playwright-python/pull/3156](https://github.com/microsoft/playwright-python/pull/3156)
 
 ---
 
@@ -80,6 +88,6 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 
 <div align="center">
 
-**[View Full GitHub Repositories](https://github.com/atiqur-rahman-pro)** • **[Connect on LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro)**
+**[Live Web CV](https://atiqur-rahman-pro.github.io/cv/)** • **[Live Portfolio](https://atiqur-rahman-pro.github.io/)** • **[Connect on LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro)**
 
 </div>
