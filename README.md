@@ -82,7 +82,7 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 
 * 📜 **Python Certified Entry-Level Programmer (PCEP)**
 * 🏅 **Microsoft Open Source Contributor** (Playwright Python)
-* 🎙️ **Founder & Lead Creator** — [@Digital_Digest_Live](https://www.youtube.com/@Digital_Digest_Live) (Technical QA & Software Engineering Education)
+* 🎙️ **Founder & Lead Creator** — [@Digital_Digest_Live](https://www.youtube.com/@Digital_Digest_Live) (Trending Tech News | Tech News Today | QA & Software Engineering Education)
 
 ---
 
