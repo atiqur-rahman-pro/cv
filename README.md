@@ -15,14 +15,14 @@
 </div>
 
 ## 📌 Executive Summary
-Results-driven **Senior Software QA Engineer & SDET Architect** with extensive expertise in building scalable, production-grade test automation infrastructure, AI-augmented failure triaging engines, and multi-layered quality pipelines. Certified Python professional (PCEP) and official **Microsoft Open Source Contributor** (`microsoft/playwright-python#3156`). Creator of live technical web assets at [atiqur-rahman-pro.github.io/cv](https://atiqur-rahman-pro.github.io/cv/) and [atiqur-rahman-pro.github.io](https://atiqur-rahman-pro.github.io/).
+Results-driven **Senior Software QA Engineer & SDET Architect** with extensive expertise in building scalable, production-grade test automation infrastructure, AI-augmented failure triaging engines, and multi-layered quality pipelines. Certified Python professional (PCEP) and official **Microsoft Open Source Contributor** (`microsoft/playwright-python#3157`). Creator of live technical web assets at [atiqur-rahman-pro.github.io/cv](https://atiqur-rahman-pro.github.io/cv/) and [atiqur-rahman-pro.github.io](https://atiqur-rahman-pro.github.io/).
 
 ---
 
 ## 🌐 Live Web Assets & Portfolios
 * 📄 **Live Web CV**: [https://atiqur-rahman-pro.github.io/cv/](https://atiqur-rahman-pro.github.io/cv/)
 * 💻 **Live Portfolio**: [https://atiqur-rahman-pro.github.io/](https://atiqur-rahman-pro.github.io/)
-* 🏅 **Microsoft Playwright PR**: [https://github.com/microsoft/playwright-python/pull/3156](https://github.com/microsoft/playwright-python/pull/3156)
+* 🏅 **Microsoft Playwright PR**: [https://github.com/microsoft/playwright-python/pull/3157](https://github.com/microsoft/playwright-python/pull/3157)
 
 ---
 
@@ -32,7 +32,7 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 | :--- | :--- |
 | **Automation Frameworks** | **Playwright**, **Pytest**, Selenium WebDriver, REST Assured, Appium 2.0 |
 | **Programming Languages** | **Python** (PCEP Certified), JavaScript/TypeScript, SQL, HTML5/CSS3 |
-| **AI & LLM Integrations** | **Claude AI API** (Anthropic), Autonomous Root-Cause Triage, Google NotebookLM, Kimi K3 |
+| **AI & LLM Integrations** | **Claude AI API** (Anthropic), Autonomous Root-Cause Triage, Google NotebookLM |
 | **DevOps & CI/CD** | **Docker**, **GitHub Actions**, Jenkins Pipeline, Allure TestOps, Pytest-HTML |
 | **API & Backend Testing** | REST API Automation, Requests, Postman CLI, Webhooks, WireMock |
 | **Performance & Audit** | **Locust** (Code-based Load Testing), `axe-core`, Technical SEO Auditing |
@@ -61,16 +61,28 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
   * **Page Object Model (POM):** Built robust E2E test suites for Chromium, Firefox, and WebKit viewports.
   * **GenAI Root-Cause Triage:** Integrated Claude AI API to ingest failing stack traces and DOM snippets, returning 2-sentence fix recommendations automatically.
   * **Auto-Jira Bug Logging:** Configured Jira REST API client to create formatted bug tickets on CI/CD test failure.
-  * **360° Automated Site Audit Engine:** Developed a standalone engine auditing SSL validity, technical SEO, word count density, HTML5 code style, and security response headers (HSTS, CSP, X-Frame-Options), generating 0-100 overall site health reports.
 
-### **2. Playwright REST API Automation Suite**
+### **2. CI/CD Flaky Test Mitigation Guide & Solutions**
+* **Repository:** [atiqur-rahman-pro/ci-cd-flaky-test-solutions](https://github.com/atiqur-rahman-pro/ci-cd-flaky-test-solutions)
+* **Tech Stack:** Python, Selenium WebDriver, Pytest, Docker, GitHub Actions, Allure Report.
+* **Architectural Highlights:** Developed a reference implementation demonstrating 4 battle-tested strategies (Explicit WebDriverWait, Docker containerization, dynamic retry handlers, POM locators) reducing pipeline flakiness below 1%.
+
+### **3. Interactive QA & SDET Voice Interview Prep Console**
+* **Repository:** [atiqur-rahman-pro/qa-interview-prep](https://github.com/atiqur-rahman-pro/qa-interview-prep)
+* **Live Demo:** [https://atiqur-rahman-pro.github.io/qa-interview-prep/](https://atiqur-rahman-pro.github.io/qa-interview-prep/)
+* **Tech Stack:** JavaScript, Web Speech API (STT & TTS), LocalStorage, CSS Glassmorphism.
+* **Architectural Highlights:** Engineered an interactive AI voice interviewer featuring 110+ hand-crafted technical Q&A across 12 domains, weakness map analytics, and custom job description audio exam engine.
+
+### **4. Claude Bandicoot 3D Browser Game Engine**
+* **Repository:** [atiqur-rahman-pro/claude-bandicoot](https://github.com/atiqur-rahman-pro/claude-bandicoot)
+* **Live Demo:** [https://atiqur-rahman-pro.github.io/claude-bandicoot/](https://atiqur-rahman-pro.github.io/claude-bandicoot/)
+* **Tech Stack:** Three.js (r128), Web Audio API Synth, HTML5/CSS3.
+* **Architectural Highlights:** Built a zero-dependency 3D browser platformer runner featuring procedural 3D character modeling, skeletal animation, dynamic soft shadow mapping, and synthesized sound effects inside a single HTML architecture.
+
+### **5. Playwright REST API Automation Suite**
 * **Repository:** [atiqur-rahman-pro/playwright-api-testing-suite](https://github.com/atiqur-rahman-pro/playwright-api-testing-suite)
 * **Tech Stack:** Python, Playwright (`APIRequestContext`), Pytest, Pytest-HTML.
 * **Architectural Highlights:** Developed a lightweight, zero-browser REST API automation framework executing CRUD contract assertions (GET, POST, DELETE) in under 1.5 seconds with self-contained HTML report generation.
-
-### **3. Distributed Performance Engineering Pipeline**
-* **Tech Stack:** Python, Locust, Docker.
-* **Architectural Highlights:** Developed code-based load scripts to simulate concurrent user traffic spikes, measuring Time to First Byte (TTFB), throughput, and latency thresholds.
 
 ---
 
@@ -95,8 +107,16 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 
 ---
 
+## 👤 Author Identity & Connect
+
 <div align="center">
 
-**[Live Web CV](https://atiqur-rahman-pro.github.io/cv/)** • **[Live Portfolio](https://atiqur-rahman-pro.github.io/)** • **[Connect on LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro)**
+### **Designed & Developed by Atiqur Rahman**
+*Senior Software QA & Test Automation Specialist*
+
+[![Microsoft Playwright](https://img.shields.io/badge/MICROSOFT_PLAYWRIGHT-OPEN_SOURCE_CONTRIBUTOR-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3157)
+[![YouTube](https://img.shields.io/badge/YOUTUBE-SUBSCRIBE_NOW-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Digital_Digest_Live)  
+[![GitHub](https://img.shields.io/badge/GITHUB-ATIQUR--RAHMAN--PRO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atiqur-rahman-pro)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT_ME-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atiqur-rahman-pro)
 
 </div>
