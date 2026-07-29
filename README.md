@@ -42,9 +42,13 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 
 ## 🏅 Open Source Contributions
 
-### **Microsoft Playwright Python (`microsoft/playwright-python`)**
-* **Pull Request:** [#3156](https://github.com/microsoft/playwright-python/pull/3156)
-* **Impact:** Contributed to the official Microsoft Playwright Python library, improving repository documentation formatting and structural clarity for global Python automation engineers.
+### **1. Microsoft Playwright Python (`microsoft/playwright-python`)**
+* **Pull Request:** [#3157](https://github.com/microsoft/playwright-python/pull/3157) & [#3156](https://github.com/microsoft/playwright-python/pull/3156)
+* **Impact:** Fixed a critical live stack frame memory leak in `_sync_base.py` by clearing task `__pw_stack__` upon completion, ensuring immediate garbage collection of caller local variables.
+
+### **2. Pytest Testing Framework (`pytest-dev/pytest`)**
+* **Pull Request:** [#14797](https://github.com/pytest-dev/pytest/pull/14797)
+* **Impact:** Restructured collection hooks documentation in `doc/en/reference/reference.rst` for Pytest reference guides.
 
 ---
 
@@ -59,7 +63,12 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
   * **Auto-Jira Bug Logging:** Configured Jira REST API client to create formatted bug tickets on CI/CD test failure.
   * **360° Automated Site Audit Engine:** Developed a standalone engine auditing SSL validity, technical SEO, word count density, HTML5 code style, and security response headers (HSTS, CSP, X-Frame-Options), generating 0-100 overall site health reports.
 
-### **2. Distributed Performance Engineering Pipeline**
+### **2. Playwright REST API Automation Suite**
+* **Repository:** [atiqur-rahman-pro/playwright-api-testing-suite](https://github.com/atiqur-rahman-pro/playwright-api-testing-suite)
+* **Tech Stack:** Python, Playwright (`APIRequestContext`), Pytest, Pytest-HTML.
+* **Architectural Highlights:** Developed a lightweight, zero-browser REST API automation framework executing CRUD contract assertions (GET, POST, DELETE) in under 1.5 seconds with self-contained HTML report generation.
+
+### **3. Distributed Performance Engineering Pipeline**
 * **Tech Stack:** Python, Locust, Docker.
 * **Architectural Highlights:** Developed code-based load scripts to simulate concurrent user traffic spikes, measuring Time to First Byte (TTFB), throughput, and latency thresholds.
 
