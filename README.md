@@ -4,7 +4,8 @@
 ### **Senior Software QA & Test Automation Engineer | SDET Architect**
 **Location:** Dhaka, Bangladesh | **Email:** [rahman.atiqur.pro@gmail.com](mailto:rahman.atiqur.pro@gmail.com)
 
-[![Microsoft Contributor](https://img.shields.io/badge/Microsoft_Playwright-Open_Source_Contributor-blue?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3156)
+[![Pytest Core Contributor](https://img.shields.io/badge/Pytest-Merged_Core_Contributor-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/pytest-dev/pytest/pull/14804)
+[![Microsoft Contributor](https://img.shields.io/badge/Microsoft_Playwright-Open_Source_Contributor-blue?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3157)
 [![Live CV Website](https://img.shields.io/badge/Live_CV-atiqur--rahman--pro.github.io%2Fcv-success?style=for-the-badge&logo=githubpages&logoColor=white)](https://atiqur-rahman-pro.github.io/cv/)
 [![Portfolio Website](https://img.shields.io/badge/Portfolio-atiqur--rahman--pro.github.io-2088FF?style=for-the-badge&logo=githubpages&logoColor=white)](https://atiqur-rahman-pro.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-atiqur--rahman--pro-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atiqur-rahman-pro)
@@ -15,13 +16,14 @@
 </div>
 
 ## 📌 Executive Summary
-Results-driven **Senior Software QA Engineer & SDET Architect** with extensive expertise in building scalable, production-grade test automation infrastructure, AI-augmented failure triaging engines, and multi-layered quality pipelines. Certified Python professional (PCEP) and official **Microsoft Open Source Contributor** (`microsoft/playwright-python#3157`). Creator of live technical web assets at [atiqur-rahman-pro.github.io/cv](https://atiqur-rahman-pro.github.io/cv/) and [atiqur-rahman-pro.github.io](https://atiqur-rahman-pro.github.io/).
+Results-driven **Senior Software QA Engineer & SDET Architect** with extensive expertise in building scalable, production-grade test automation infrastructure, AI-augmented failure triaging engines, and multi-layered quality pipelines. Certified Python professional (PCEP) and official **Pytest Core Contributor** (`pytest-dev/pytest#14804`) and **Microsoft Open Source Contributor** (`microsoft/playwright-python#3157`). Creator of live technical web assets at [atiqur-rahman-pro.github.io/cv](https://atiqur-rahman-pro.github.io/cv/) and [atiqur-rahman-pro.github.io](https://atiqur-rahman-pro.github.io/).
 
 ---
 
 ## 🌐 Live Web Assets & Portfolios
 * 📄 **Live Web CV**: [https://atiqur-rahman-pro.github.io/cv/](https://atiqur-rahman-pro.github.io/cv/)
 * 💻 **Live Portfolio**: [https://atiqur-rahman-pro.github.io/](https://atiqur-rahman-pro.github.io/)
+* 🏅 **Pytest Core Merged PR**: [https://github.com/pytest-dev/pytest/pull/14804](https://github.com/pytest-dev/pytest/pull/14804)
 * 🏅 **Microsoft Playwright PR**: [https://github.com/microsoft/playwright-python/pull/3157](https://github.com/microsoft/playwright-python/pull/3157)
 
 ---
@@ -42,19 +44,28 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 
 ## 🏅 Open Source Contributions
 
-### **1. Microsoft Playwright Python (`microsoft/playwright-python`)**
+### **1. Pytest Testing Framework (`pytest-dev/pytest`)**
+* **Pull Request:** [#14804](https://github.com/pytest-dev/pytest/pull/14804) (**MERGED into `main` & `9.1.x`**)
+* **Impact:** Updated outdated community guidelines and social media references across `CONTRIBUTING.rst` and documentation to align with official pytest contact channels (Bluesky, Mastodon, Twitter/X).
+
+### **2. Microsoft Playwright Python (`microsoft/playwright-python`)**
 * **Pull Request:** [#3157](https://github.com/microsoft/playwright-python/pull/3157) & [#3156](https://github.com/microsoft/playwright-python/pull/3156)
 * **Impact:** Fixed a critical live stack frame memory leak in `_sync_base.py` by clearing task `__pw_stack__` upon completion, ensuring immediate garbage collection of caller local variables.
 
-### **2. Pytest Testing Framework (`pytest-dev/pytest`)**
-* **Pull Request:** [#14797](https://github.com/pytest-dev/pytest/pull/14797)
-* **Impact:** Restructured collection hooks documentation in `doc/en/reference/reference.rst` for Pytest reference guides.
+### **3. Pytest Coverage Plugin (`pytest-dev/pytest-cov`)**
+* **Pull Request:** [#754](https://github.com/pytest-dev/pytest-cov/pull/754) (**Active PR**)
+* **Impact:** Updated legacy Python 2.7 / 3.6 version references in `docs/tox.rst` to Python 3.9/3.12 and updated master branch link to main.
 
 ---
 
 ## 🚀 Key Engineering Projects
 
-### **1. Enterprise AI-Augmented SDET Automation & 360° Site Audit Engine**
+### **1. Enterprise QA Automation Framework (Pytest + Playwright)**
+* **Repository:** [atiqur-rahman-pro/qa-automation-framework](https://github.com/atiqur-rahman-pro/qa-automation-framework)
+* **Tech Stack:** Python 3.12, Playwright, Pytest, Page Object Model (POM), GitHub Actions CI.
+* **Architectural Highlights:** Modular POM architecture, auto failure screenshots, self-contained HTML reporting, and continuous integration workflow.
+
+### **2. Enterprise AI-Augmented SDET Automation & 360° Site Audit Engine**
 * **Repository:** [atiqur-rahman-pro/ai-sdet-framework](https://github.com/atiqur-rahman-pro/ai-sdet-framework)
 * **Tech Stack:** Python, Playwright, Pytest, Claude AI API, Jira REST API, Locust, Docker, GitHub Actions.
 * **Architectural Highlights:**
@@ -62,22 +73,16 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
   * **GenAI Root-Cause Triage:** Integrated Claude AI API to ingest failing stack traces and DOM snippets, returning 2-sentence fix recommendations automatically.
   * **Auto-Jira Bug Logging:** Configured Jira REST API client to create formatted bug tickets on CI/CD test failure.
 
-### **2. CI/CD Flaky Test Mitigation Guide & Solutions**
+### **3. CI/CD Flaky Test Mitigation Guide & Solutions**
 * **Repository:** [atiqur-rahman-pro/ci-cd-flaky-test-solutions](https://github.com/atiqur-rahman-pro/ci-cd-flaky-test-solutions)
 * **Tech Stack:** Python, Selenium WebDriver, Pytest, Docker, GitHub Actions, Allure Report.
 * **Architectural Highlights:** Developed a reference implementation demonstrating 4 battle-tested strategies (Explicit WebDriverWait, Docker containerization, dynamic retry handlers, POM locators) reducing pipeline flakiness below 1%.
 
-### **3. Interactive QA & SDET Voice Interview Prep Console**
+### **4. Interactive QA & SDET Voice Interview Prep Console**
 * **Repository:** [atiqur-rahman-pro/qa-interview-prep](https://github.com/atiqur-rahman-pro/qa-interview-prep)
 * **Live Demo:** [https://atiqur-rahman-pro.github.io/qa-interview-prep/](https://atiqur-rahman-pro.github.io/qa-interview-prep/)
 * **Tech Stack:** JavaScript, Web Speech API (STT & TTS), LocalStorage, CSS Glassmorphism.
 * **Architectural Highlights:** Engineered an interactive AI voice interviewer featuring 110+ hand-crafted technical Q&A across 12 domains, weakness map analytics, and custom job description audio exam engine.
-
-### **4. Claude Bandicoot 3D Browser Game Engine**
-* **Repository:** [atiqur-rahman-pro/claude-bandicoot](https://github.com/atiqur-rahman-pro/claude-bandicoot)
-* **Live Demo:** [https://atiqur-rahman-pro.github.io/claude-bandicoot/](https://atiqur-rahman-pro.github.io/claude-bandicoot/)
-* **Tech Stack:** Three.js (r128), Web Audio API Synth, HTML5/CSS3.
-* **Architectural Highlights:** Built a zero-dependency 3D browser platformer runner featuring procedural 3D character modeling, skeletal animation, dynamic soft shadow mapping, and synthesized sound effects inside a single HTML architecture.
 
 ### **5. Playwright REST API Automation Suite**
 * **Repository:** [atiqur-rahman-pro/playwright-api-testing-suite](https://github.com/atiqur-rahman-pro/playwright-api-testing-suite)
@@ -102,7 +107,8 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 ## 🎓 Certifications & Professional Education
 
 * 📜 **Python Certified Entry-Level Programmer (PCEP)**
-* 🏅 **Microsoft Open Source Contributor** (Playwright Python)
+* 🏅 **Pytest Core Merged Contributor** (`pytest-dev/pytest`)
+* 🏅 **Microsoft Open Source Contributor** (`microsoft/playwright-python`)
 * 🎙️ **Founder & Lead Creator** — [@Digital_Digest_Live](https://www.youtube.com/@Digital_Digest_Live) (Trending Tech News | Tech News Today | QA & Software Engineering Education)
 
 ---
@@ -114,6 +120,7 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 ### **Designed & Developed by Atiqur Rahman**
 *Senior Software QA & Test Automation Specialist*
 
+[![Pytest Core Contributor](https://img.shields.io/badge/PYTEST-CORE_OPEN_SOURCE_CONTRIBUTOR-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/pytest-dev/pytest/pull/14804)
 [![Microsoft Playwright](https://img.shields.io/badge/MICROSOFT_PLAYWRIGHT-OPEN_SOURCE_CONTRIBUTOR-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3157)
 [![YouTube](https://img.shields.io/badge/YOUTUBE-SUBSCRIBE_NOW-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Digital_Digest_Live)  
 [![GitHub](https://img.shields.io/badge/GITHUB-ATIQUR--RAHMAN--PRO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atiqur-rahman-pro)
