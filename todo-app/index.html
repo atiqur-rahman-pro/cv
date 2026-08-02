@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>To-Do App — Atiqur Rahman</title>
+  <meta name="description" content="To-Do List app (localStorage) — demo included in atiqur-rahman-pro/cv repository" />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app" role="main" aria-labelledby="app-title">
+    <h1 id="app-title">To‑Do List</h1>
+    <p class="meta">Tasks persist in your browser. Add due date, priority, tags; import/export JSON.</p>
+
+    <form id="addForm" class="add-form" aria-label="Add new todo">
+      <input id="newTodo" class="add-input" placeholder="Task title" aria-label="New todo title" required />
+
+      <select id="priority" aria-label="Priority" title="Priority">
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+        <option value="low">Low</option>
+      </select>
+
+      <input id="dueDate" type="date" aria-label="Due date" />
+      <input id="tagsInput" class="add-input" placeholder="Tags (comma separated)" aria-label="Tags" />
+      <button type="submit" class="btn" id="addBtn">Add</button>
+    </form>
+
+    <div class="controls" role="toolbar" aria-label="Todo controls">
+      <div class="filters" role="tablist" aria-label="Filter tasks">
+        <button class="filter-btn" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="active" aria-pressed="false">Active</button>
+        <button class="filter-btn" data-filter="completed" aria-pressed="false">Completed</button>
+      </div>
+
+      <div class="modifier-controls">
+        <label for="sortSelect" class="small">Sort:</label>
+        <select id="sortSelect" aria-label="Sort tasks">
+          <option value="createdDesc">Newest</option>
+          <option value="createdAsc">Oldest</option>
+          <option value="dueAsc">Due Date ↑</option>
+          <option value="dueDesc">Due Date ↓</option>
+          <option value="priorityDesc">Priority</option>
+        </select>
+
+        <label for="tagFilter" class="small">Tag:</label>
+        <input id="tagFilter" placeholder="Filter by tag" aria-label="Filter by tag" />
+
+        <div style="display:flex;gap:8px;align-items:center;">
+          <div class="small" id="count" aria-live="polite">0 items left</div>
+          <button class="icon-btn" id="clearCompleted" title="Clear completed tasks" aria-label="Clear completed tasks">Clear Completed</button>
+          <button class="icon-btn" id="exportBtn" title="Export todos" aria-label="Export todos">Export</button>
+          <input id="importFile" type="file" accept="application/json" style="display:none" />
+          <button class="icon-btn" id="importBtn" title="Import todos" aria-label="Import todos">Import</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="list" class="todo-list" aria-live="polite" aria-label="Todo list"></section>
+
+    <div id="empty" class="empty" hidden>No todos yet — add your first task!</div>
+  </main>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
