@@ -1,7 +1,7 @@
 <div align="center">
 
 # Atiqur Rahman
-### **Senior Software QA & Test Automation Engineer | SDET Architect**
+### **Software QA Engineer | SDET | Test Automation Architect | Microsoft Contributor | Open Source Contributor**
 **Location:** Dhaka, Bangladesh | **Email:** [rahman.atiqur.pro@gmail.com](mailto:rahman.atiqur.pro@gmail.com)
 
 [![Pytest Core Contributor](https://img.shields.io/badge/Pytest-Merged_Core_Contributor-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/pytest-dev/pytest/pull/14804)
