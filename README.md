@@ -89,6 +89,12 @@ Results-driven **Senior Software QA Engineer & SDET Architect** with extensive e
 * **Tech Stack:** Python, Playwright (`APIRequestContext`), Pytest, Pytest-HTML.
 * **Architectural Highlights:** Developed a lightweight, zero-browser REST API automation framework executing CRUD contract assertions (GET, POST, DELETE) in under 1.5 seconds with self-contained HTML report generation.
 
+### **Enterprise Todo App & Automated Test Suite** | [GitHub Repo](https://github.com/atiqur-rahman-pro/todo-app)
+*Built a modern web-based task management application paired with an automated Playwright & Pytest end-to-end regression testing framework.*
+- Engineered automated E2E test scripts covering task creation, inline editing, completion toggles, state persistence (LocalStorage), and filter controls (All, Active, Completed).
+- Configured cross-browser testing across Chromium, Firefox, and WebKit viewports executing automatically in GitHub Actions CI/CD pipelines.
+- Integrated Pytest-HTML and Playwright Trace Viewer with failure screenshots and video recordings for 100% bug evidence trails.
+
 ---
 
 ## 💼 Professional Experience
