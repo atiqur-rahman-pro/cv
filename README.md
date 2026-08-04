@@ -25,8 +25,11 @@ Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation S
 
 | Project / Repository | Pull Requests | Key Architectural Contribution & Impact |
 | :--- | :--- | :--- |
-| **Microsoft Playwright Python** (`microsoft/playwright-python`) | [#3156](https://github.com/microsoft/playwright-python/pull/3156), [#3157](https://github.com/microsoft/playwright-python/pull/3157), [#3159](https://github.com/microsoft/playwright-python/pull/3159) | **Fixed live stack frame memory leak** in `_sync_base.py` by clearing task `__pw_stack__` upon completion, ensuring immediate garbage collection of caller local variables. Resolved `UnicodeDecodeError` in `_network.py` for binary request payloads. |
-| **Pytest Testing Framework** (`pytest-dev/pytest`) | [#14797](https://github.com/pytest-dev/pytest/pull/14797), [#14804](https://github.com/pytest-dev/pytest/pull/14804) | Restructured collection hooks documentation in `doc/en/reference/reference.rst` and enhanced core test runner reference guides. |
+| **Pytest Testing Framework** (`pytest-dev/pytest`) | [#14810](https://github.com/pytest-dev/pytest/pull/14810) (**MERGED & BACKPORTED TO PYTEST 9.1.x 💚**), [#14797](https://github.com/pytest-dev/pytest/pull/14797) | Fixed pytest core exception formatting; backported as official PR #14831 for Pytest 9.1.x production release. |
+| **Microsoft Playwright Python** (`microsoft/playwright-python`) | [#3156](https://github.com/microsoft/playwright-python/pull/3156), [#3157](https://github.com/microsoft/playwright-python/pull/3157), [#3159](https://github.com/microsoft/playwright-python/pull/3159) | Fixed live stack frame memory leak in `_sync_base.py` by clearing task `__pw_stack__` upon completion, ensuring immediate garbage collection. Resolved `UnicodeDecodeError` in `_network.py` for binary request payloads. |
+| **Jazzband Django Silk** (`jazzband/django-silk`) | [#895](https://github.com/jazzband/django-silk/pull/895) (**LIVE 🟢**) | Configured `pythonpath = project` in `pytest.ini` for root test discovery and fixed `autopep8` multiline string assertions. |
+| **MCP Migrate Framework** (`dheerajjha/mcp-migrate`) | [#75](https://github.com/dheerajjha/mcp-migrate/pull/75), [#51](https://github.com/dheerajjha/mcp-migrate/pull/51) | Ported Rule R003 (`MissingRoutingHeaders`) with AST comment scanner and engineered fail-silent MCP protocol SDK no-grade detection. |
+| **Py_simple** (`sara-czasak/Py_simple`) | [#43](https://github.com/sara-czasak/Py_simple/pull/43), [#45](https://github.com/sara-czasak/Py_simple/pull/45), [#48](https://github.com/sara-czasak/Py_simple/pull/48) | **Official Collaborator & Wall of Fame Member**. Implemented string processing functions and fixed documentation docstrings. |
 
 ---
 
