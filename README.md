@@ -3,7 +3,7 @@
 # Atiqur Rahman
 ### **Software QA Engineer | SDET | Test Automation Architect | Microsoft Contributor | Open Source Contributor**
 
-📍 Dhaka, Bangladesh | ✉️ [rahman.arpro@gmail.com](mailto:rahman.arpro@gmail.com) | 🌐 [LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro) | 🐙 [GitHub Profile](https://github.com/atiqur-rahman-pro)
+📍 Dhaka, Bangladesh | ✉️ [rahman.atiqur.pro@gmail.com](mailto:rahman.atiqur.pro@gmail.com) | 🌐 [LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro) | 🐙 [GitHub Profile](https://github.com/atiqur-rahman-pro)
 
 [![Microsoft Contributor](https://img.shields.io/badge/Microsoft_Playwright-Open_Source_Contributor-blue?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3157)
 [![Pytest Core Contributor](https://img.shields.io/badge/Pytest-Core_Contributor-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/pytest-dev/pytest/pull/14804)
