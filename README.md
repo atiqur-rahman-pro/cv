@@ -117,8 +117,9 @@ Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation S
 
 <div align="center">
 
-[![Atiqur's GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=atiqur-rahman-pro&show_icons=true&theme=dark&hide_border=true)](https://github.com/atiqur-rahman-pro)
-[![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=atiqur-rahman-pro&layout=compact&theme=dark&hide_border=true)](https://github.com/atiqur-rahman-pro)
+[![Atiqur's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=atiqur-rahman-pro&theme=dark&hide_border=true)](https://github.com/atiqur-rahman-pro)
+
+[![Atiqur's GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=atiqur-rahman-pro&theme=github-dark)](https://github.com/atiqur-rahman-pro)
 
 </div>
 
