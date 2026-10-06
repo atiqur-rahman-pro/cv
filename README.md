@@ -1,10 +1,12 @@
 <div align="center">
 
 # Atiqur Rahman
-### **Software QA Engineer | SDET | Test Automation Architect | Microsoft Contributor | Open Source Contributor**
+### **Lead SDET & Test Automation Architect | Keycloak Core Contributor (Rank #40) | Microsoft & Pytest**
 
 📍 Dhaka, Bangladesh | ✉️ [rahman.atiqur.pro@gmail.com](mailto:rahman.atiqur.pro@gmail.com) | 🌐 [LinkedIn](https://www.linkedin.com/in/atiqur-rahman-pro) | 🐙 [GitHub Profile](https://github.com/atiqur-rahman-pro)
 
+[![Keycloak Core Contributor](https://img.shields.io/badge/Keycloak-Core_Contributor_(Rank_%2340)-red?style=for-the-badge&logo=redhat&logoColor=white)](https://github.com/keycloak/keycloak/graphs/contributors)
+[![GitHub Pull Shark](https://img.shields.io/badge/GitHub-Pull_Shark_x2-orange?style=for-the-badge&logo=github&logoColor=white)](https://github.com/atiqur-rahman-pro)
 [![Microsoft Contributor](https://img.shields.io/badge/Microsoft_Playwright-Open_Source_Contributor-blue?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/microsoft/playwright-python/pull/3157)
 [![Pytest Core Contributor](https://img.shields.io/badge/Pytest-Core_Contributor-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://github.com/pytest-dev/pytest/pull/14804)
 [![Live Portfolio Website](https://img.shields.io/badge/Live_Portfolio-atiqur--rahman--pro.github.io-2088FF?style=for-the-badge&logo=githubpages&logoColor=white)](https://atiqur-rahman-pro.github.io/)
@@ -25,6 +27,7 @@ Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation S
 
 | Project / Repository | Pull Requests | Key Architectural Contribution & Impact |
 | :--- | :--- | :--- |
+| **Red Hat Keycloak** (keycloak/keycloak) | [#53279](https://github.com/keycloak/keycloak/pull/53279) (**MERGED 🔴**), [#53281](https://github.com/keycloak/keycloak/pull/53281) (**MERGED 🔴**), [#53355](https://github.com/keycloak/keycloak/pull/53355) (**MERGED 🔴**) | **Official Core Contributor (Rank #40 upstream with 5 commits)**. Eliminated LDAP StartTLS socket teardown deadlocks (commit 3a2ecae; 30 stability runs passed), fixed SAML broker logout for empty SLS URLs (commit 8eab1ae), and implemented PgBouncer HA failover mechanics (commit c0ac727). |
 | **django-query-guard** ([PyPI Package](https://pypi.org/project/django-query-guard/)) | [`atiqur-rahman-pro/django-query-guard`](https://github.com/atiqur-rahman-pro/django-query-guard) (**PUBLISHED 📦**) | Ultra-fast zero-dependency Python & Pytest plugin preventing N+1 database queries in Django backend applications. |
 | **Pytest Testing Framework** (`pytest-dev/pytest`) | [#14810](https://github.com/pytest-dev/pytest/pull/14810) (**MERGED & BACKPORTED TO PYTEST 9.1.x 💚**), [#14797](https://github.com/pytest-dev/pytest/pull/14797) | Fixed pytest core exception formatting; backported as official PR #14831 for Pytest 9.1.x production release. |
 | **Microsoft Playwright Python** (`microsoft/playwright-python`) | [#3156](https://github.com/microsoft/playwright-python/pull/3156), [#3157](https://github.com/microsoft/playwright-python/pull/3157), [#3159](https://github.com/microsoft/playwright-python/pull/3159) | Fixed live stack frame memory leak in `_sync_base.py` by clearing task `__pw_stack__` upon completion, ensuring immediate garbage collection. Resolved `UnicodeDecodeError` in `_network.py` for binary request payloads. |

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Official Resume & Portfolio of Atiqur Rahman - Freelance QA Engineer, Remote SDET Automation Engineer, AI Workflow Automation Specialist & Docker/Jenkins DevOps practitioner.">
+    <meta name="description" content="Official Resume & Portfolio of Atiqur Rahman - Lead SDET, Test Automation Architect, Keycloak Core Contributor (Rank #40), Microsoft Playwright & Pytest Contributor.">
     <meta name="keywords" content="Atiqur Rahman, Atiqur Rahman SDET, Freelance QA Engineer, SDET-QA Automation Job, Remote SDET Automation Engineer, AI Workflow Automation Specialist, Docker, Jenkins, Containerization, QA Engineer Job, QA Engineer Resume, SDET Expert in Github, PCEP Certified Python Developer, Claude AI Certified, How to Use Claude API">
     <link rel="canonical" href="https://atiqur-rahman-pro.github.io/cv/" />
 
@@ -32,7 +32,8 @@
         "AI Workflow Automation Specialist",
         "SDET Expert in Github"
       ],
-      "jobTitle": "Senior SDET & Remote SDET Automation Engineer",
+      "jobTitle": "Lead SDET & Test Automation Architect | Keycloak Core Contributor",
+      "award": ["Keycloak Core Contributor Rank #40", "GitHub Pull Shark x2"],
       "worksFor": {
         "@type": "Organization",
         "name": "Intelle Hub Inc"
@@ -83,7 +84,7 @@
 
 
 
-    <title>Atiqur Rahman - Freelance QA Engineer & Remote SDET Automation Engineer</title>
+    <title>Atiqur Rahman - Lead SDET, Automation Architect & Keycloak Core Contributor</title>
 
 
 
@@ -209,6 +210,7 @@
             <div class="logo">ATIQUR RAHMAN</div>
             <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
             <ul class="nav-links" id="navLinks">
+                <li><a href="#opensource">Open Source</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">15 Certifications</a></li>
@@ -245,15 +247,82 @@
         <div class="exp-card">
             <div class="exp-header">
                 <div class="exp-title">
-                    <h3>Automation Engineer / Senior SDET</h3>
-                    <div class="company"><i class="fa-solid fa-building"></i> Intelle Hub Inc • Full-time (Dhaka, Bangladesh)</div>
+                    <h3>Lead Automation Engineer / Senior SDET</h3>
+                    <div class="company"><i class="fa-solid fa-building"></i> Intelle Hub Inc • Full-time (Dhaka, Bangladesh / Remote)</div>
                 </div>
                 <div class="exp-badge"><i class="fa-solid fa-clock"></i> Mar 2015 – Present (11+ Years)</div>
             </div>
-            <p>🧪 <b>Building Reliable Software Through Smart Automation:</b> I help companies deliver bug-free software by building intelligent test automation frameworks that catch issues before users do. Specialized in Python, Selenium WebDriver, Pytest, Playwright, REST Assured, Docker containerization, Jenkins CI/CD pipelines, and GitHub Actions automation.</p>
+            <p>🧪 <b>Architecting Resilient Enterprise Test Harnesses & Upstream Quality:</b> Official Core Contributor to Red Hat Keycloak (Rank #40), Microsoft Playwright Python, and Pytest Core. 11+ years experience architecting multi-threaded Java concurrency test harnesses, network socket teardown validation, SAML 2.0 / LDAP StartTLS protocol verification, containerized CI/CD pipelines (Docker, GitHub Actions, Jenkins), and GenAI automated QA triage engines.</p>
         </div>
     </section>
 
+    <!-- Upstream Open Source Section -->
+    <section class="container" id="opensource" style="margin-bottom: 60px;">
+        <div class="section-title">
+            <h2>Upstream Open-Source Contributions</h2>
+            <p>Core code merged into foundational platforms used by millions of developers worldwide</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Keycloak -->
+            <div class="project-card" style="border-color: rgba(239, 68, 68, 0.3);">
+                <div>
+                    <div class="project-tag" style="color: #ef4444;"><i class="fa-solid fa-shield-halved"></i> Red Hat Keycloak (Rank #40 Upstream)</div>
+                    <h3>Keycloak Core Contributor</h3>
+                    <p>Ranked #40 contributor upstream with 5 commits. Merged fixes for LDAP StartTLS concurrency deadlocks (PR #53279 - commit 3a2ecae; verified with 30-run test harness), SAML broker logout empty SLS URLs (PR #53281 - commit 8eab1ae), and PgBouncer high-availability failover (PR #53355 - commit c0ac727).</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">Java Concurrency</span>
+                        <span class="t-badge">LDAP StartTLS</span>
+                        <span class="t-badge">SAML 2.0</span>
+                        <span class="t-badge">PgBouncer HA</span>
+                        <span class="t-badge">JUnit 5</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/keycloak/keycloak/pulls?q=is%3Apr+author%3Aatiqur-rahman-pro" target="_blank" class="p-btn"><i class="fa-solid fa-code-merge"></i> Merged PRs</a>
+                    <a href="https://github.com/keycloak/keycloak/graphs/contributors" target="_blank" class="p-btn"><i class="fa-solid fa-chart-line"></i> Rank #40 Graph</a>
+                </div>
+            </div>
+
+            <!-- Microsoft Playwright -->
+            <div class="project-card" style="border-color: rgba(56, 189, 248, 0.3);">
+                <div>
+                    <div class="project-tag" style="color: var(--accent-cyan);"><i class="fa-brands fa-microsoft"></i> Microsoft Playwright</div>
+                    <h3>Playwright Python Contributor</h3>
+                    <p>Eliminated live stack-frame memory leaks in <code>_sync_base.py</code> under high-throughput test runs (PR #3157, #3156) and resolved <code>UnicodeDecodeError</code> in <code>_network.py</code> for binary request payloads (PR #3159).</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">Python</span>
+                        <span class="t-badge">Asyncio</span>
+                        <span class="t-badge">Memory Leaks</span>
+                        <span class="t-badge">Network Encodings</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/microsoft/playwright-python/pull/3157" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> PR #3157</a>
+                    <a href="https://github.com/microsoft/playwright-python/pull/3159" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> PR #3159</a>
+                </div>
+            </div>
+
+            <!-- Pytest & Django -->
+            <div class="project-card" style="border-color: rgba(168, 85, 247, 0.3);">
+                <div>
+                    <div class="project-tag" style="color: var(--accent-purple);"><i class="fa-solid fa-flask"></i> Pytest & Django Ecosystem</div>
+                    <h3>Pytest Core & Silk Contributor</h3>
+                    <p>Upstream contributor to Pytest test runner (PR #14797, #14804 - merged into main & 9.1.x) improving reference guides and exception formatting. Merged PR #895 in Django Silk and authored django-query-guard on PyPI.</p>
+                    <div class="tech-stack">
+                        <span class="t-badge">Pytest Core</span>
+                        <span class="t-badge">Django Silk</span>
+                        <span class="t-badge">PyPI Package</span>
+                        <span class="t-badge">N+1 Detection</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/pytest-dev/pytest/pull/14804" target="_blank" class="p-btn"><i class="fa-brands fa-github"></i> Pytest PR</a>
+                    <a href="https://pypi.org/project/django-query-guard/" target="_blank" class="p-btn"><i class="fa-brands fa-python"></i> PyPI Package</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Featured Projects -->
     <section class="container" id="projects">
