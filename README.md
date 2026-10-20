@@ -19,7 +19,7 @@
 
 ## 📌 Executive Summary
 
-Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation Specialist**, and **Microsoft Open Source Contributor** with **11+ years of full-time experience** at **Intelle Hub Inc**. Holder of **15 Verified Professional Certifications** across Python (3x PCEP Certified), **Docker Containerization**, **Jenkins CI/CD Pipelines**, **Anthropic Claude AI**, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Jira Agile. Proven track record of architecting enterprise test frameworks, cutting regression testing cycles by up to 95%, and automating bug triaging via Jira Cloud REST APIs.
+Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation Specialist**, and **Microsoft Open Source Contributor** with **11+ years of full-time experience** at **Intelle Hub Inc**. Holder of **19 Verified Professional Certifications** across Go, Python (3x PCEP Certified), Cybersecurity, **Docker Containerization**, **Jenkins CI/CD Pipelines**, **Anthropic Claude AI**, Google AI, Test Automation (Selenium & REST Assured), Analytics, and Jira Agile. Proven track record of architecting enterprise test frameworks, cutting regression testing cycles by up to 95%, and automating bug triaging via Jira Cloud REST APIs.
 
 ---
 
@@ -37,10 +37,12 @@ Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation S
 
 ---
 
-## 🏆 Verified Licenses & Certifications (15 Total)
+## 🏆 Verified Licenses & Certifications (19 Total)
 
 | Domain | Certification Title | Issuing Organization | Credential ID |
 | :--- | :--- | :--- | :--- |
+| 🐹 **Go (Golang)** | Go (Intermediate) Skill Certification | HackerRank | `9811D0D4B5A3` |
+| 🛡️ **Cybersecurity** | Career Essentials in Cybersecurity | Microsoft and LinkedIn | `Issued Sep 2026` |
 | 🐍 **Python** | PCEP: Python Conditionals, Loops, & Functions | Python Institute | `CAVECYWB33K4` |
 | 🐍 **Python** | PCEP: Python Data Processing | Python Institute | `OUSRQ2N4KRYX` |
 | 🐍 **Python** | PCEP: Python Setup | Python Institute | `TGAGSODQDW15` |
@@ -64,7 +66,7 @@ Results-driven **Software QA Engineer**, **SDET Architect**, **Test Automation S
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Automation Frameworks** | **Playwright**, **Pytest**, Selenium WebDriver, REST Assured, Appium 2.0, Page Object Model (POM) |
-| **Programming Languages** | **Python 3.10+** (3x PCEP Certified), JavaScript / TypeScript, Java, SQL, HTML5/CSS3 |
+| **Programming Languages** | **Go (Golang)** (HackerRank Certified Intermediate), **Python 3.10+** (3x PCEP Certified), JavaScript / TypeScript, Java, SQL, HTML5/CSS3 |
 | **DevOps & Infrastructure** | **Docker** (Containerization & Compose), **Jenkins** (CI/CD Pipelines), **GitHub Actions**, Linux, Chrome Headless |
 | **AI & LLM Integration** | **Claude AI API** (Anthropic), Google Gemini API, Agentic Workflows, Structured JSON Enforcement |
 | **API & Backend Testing** | REST API Automation, FastAPI, Requests, Webhooks, WireMock, Postman |
